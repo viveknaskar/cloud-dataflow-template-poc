@@ -20,7 +20,7 @@ Creating Cloud Dataflow template in Java. This is worked upon Apache Beam's Word
  
  > mvn compile exec:java \
  >   -Dexec.mainClass=com.viveknaskar.WordCount \
- >   -Dexec.args="--project=my-dataflow-project-284008 \
+ >   -Dexec.args="--project=<your-project-id> \
  >   --stagingLocation=gs://dataflow-pipeline-staging/staging \
  >   --dataflowJobFile=gs://dataflow-pipeline-staging/templates/dataflow-template \
  >   --gcpTempLocation=gs://dataflow-pipeline-staging/tmp \
