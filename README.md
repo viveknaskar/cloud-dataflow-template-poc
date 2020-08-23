@@ -1,6 +1,6 @@
 # cloud-dataflow-template-poc
 
-Code to create cloud Dataflow template in Java. This is worked upon Apache Beam's WordCount example. The pipeline will read data from a textfile which is stored in a GCS bucket and it will output the number of each words in another GCS bucket.
+Code to create Google cloud-dataflow pipeline in Java. This is worked upon Apache Beam's WordCount example. The pipeline will read data from a textfile which is stored in a GCS bucket and it will output the number of each words in another GCS bucket.
 
 ## Run the below maven command to run the example dataflow pipeline
 
